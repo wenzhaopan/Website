@@ -1,0 +1,156 @@
+/* Homepage */
+
+body  {
+  background: linear-gradient(to bottom, powderBlue,powderBlue 750px,white 600px,white);
+}
+
+/* Formats background of the web pages so colour scheme matches with text */
+#background {
+  position: fixed;
+  justify-content: center;
+  width: 150%;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+}
+
+/* Formats image for homepage */
+#topRightImg {
+  display: block;
+  float: right;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 70px;
+  padding-top: 50px;
+  width: 40%;
+}
+
+/* Formats the title text on each web page */
+.titleText {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  line-height: 0.5;
+}
+
+/* Navbar */
+.navigation {
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%; 
+}
+
+/* Navbar list */
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+/* Formats navbar */
+.navigation li {
+  float: left;
+}
+
+/* Formats text on navbar */
+.navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navigation a:hover {
+  background-color: #a8a8a8;
+}
+
+/* Fixed position of nav bar*/
+.naviation ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Changes the "active" navbar option to green coloured */
+.navigation a.active{
+  background-color: #354092;
+  color: white;
+}
+
+/* Centers pictures  */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Formats all the paragraphs on the website */
+.paragraph {
+  font-family: 'Merriweather', serif;
+  font-weight: 100;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 18px;
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 2;
+  color: #494949;
+}
+
+/* Specially formatted paragraph for the first page */
+#formattedParagraph {
+  font-family: 'Merriweather', serif;
+  font-weight: 100;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: px;
+  line-height: 2;
+  color: #494949;
+}
+
+/* Centers text */
+.sources {
+  text-align: center;
+}
+
+/* Page 2&3 */
+
+/* Puts image on the right of the page (text wrapped) */
+#rightImg {
+  display: block;
+  float: right;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  width: 40%;
+}
+
+/* Puts image on the left of the page (text wrapped) */
+#leftImg {
+  display: block;
+  float: left;
+  margin-left: 100px;
+  marign-right: 100px;
+  margin-top: 50px;
+  width: 40%;
+}
+
+/* Page 3 */
+#formattedHeader{
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #494949;
+}
