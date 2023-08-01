@@ -47,28 +47,47 @@
           Hey! I'd love to get in touch. Please fill in this form and I'll reply as soon as I can.
         </p>
 
-        <!-- Text boxes -->
-        <p class="rightParagraph">
-
-          <input type="text" id="textbox" name="textbox" class=textbox1 placeholder="Your name">
-          <br><br>
 
 
-          <input type="text" id="textbox" name="textbox" class=textbox1 placeholder="Your email">
-          <br><br>
 
 
-          <textarea id="textbox" name="textbox" rows="4" cols="50" class="textarea1"
-            placeholder="Your message"></textarea>
-        </p>
-        <button class="styled-button" onclick="alert('Sent!')">Send</button>
+
+        <form action="https://formsubmit.co/wenzhao.pan22@gmail.com" method="POST">
+
+          <!-- Text boxes -->
+          <p class="rightParagraph">
+
+            <input type="text" id="Name" name="Name" class=textbox1 placeholder="Your name" required>
+            <br><br>
+
+
+            <input type="text" id="emailAddress" name="Email" class=textbox1 placeholder="Your email" required>
+            <br><br>
+
+
+            <textarea id="textbox" name="Message" rows="4" cols="50" class="textarea1" placeholder="Your message"
+              required></textarea>
+
+
+            <input type="hidden" name="_next" value="https://wenzhaopan.github.io/Website/Contact.html">
+
+
+          </p>
+
+          <!-- Send email button -->
+          <button id="sendButton" class="styled-button">Send</button>
+        </form>
+
+
+
+
 
         <br><br><br><br><br><br><br>
     </body>
 
 </html>
 
-<script src="script.js"></script>
+<script src=" script.js"></script>
 </body>
 
 </html>
